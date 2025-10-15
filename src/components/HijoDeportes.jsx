@@ -25,7 +25,7 @@ class HijoDeportes extends Component{
             <h2 style={{color:"blueviolet"}}>Hijo</h2>
             <h3 style={{color:"red"}}>Deporte: {this.props.nombre}</h3>
             {/* <h4 style={{color:"violet"}}>Deporte favorito: {this.state.favorito}</h4>  onClick={this.mostrarFav} en el button*/}
-
+            
             <button onClick={this.seleccionarFavorito}>Selecciona tu favorito</button>
         </div>)
     }
